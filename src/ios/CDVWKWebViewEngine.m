@@ -400,7 +400,7 @@ static void * KVOContext = &KVOContext;
 
 - (void)webViewWebContentProcessDidTerminate:(WKWebView *)webView
 {
-    [webView reload];
+    [(WKWebView*)_engineWebView reload];
 }
 
 - (BOOL)defaultResourcePolicyForURL:(NSURL*)url
