@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-wkwebview-engine",
-  "version": "1.2.0-dev",
+  "version": "1.2.2-dev",
   "description": "The official Apache Cordova WKWebView Engine Plugin",
   "main": "index.js",
   "repository": {
@@ -8,12 +8,13 @@
     "url": "https://github.com/apache/cordova-plugin-wkwebview-engine"
   },
   "bugs": {
-    "url": "https://issues.apache.org/jira/browse/CB"
+    "url": "https://github.com/apache/cordova-plugin-wkwebview-engine/issues"
   },
   "keywords": [
     "cordova",
     "wkwebview",
-    "cordova-ios"
+    "cordova-ios",
+    "ecosystem:cordova"
   ],
   "scripts": {
     "test": "npm run eslint && npm run objc-tests",
@@ -21,7 +22,7 @@
     "preobjc-tests": "cd tests/ios && npm install",
     "eslint": "node_modules/.bin/eslint src"
   },
-  "author": "Apache Cordova",
+  "author": "Apache Software Foundation",
   "license": "Apache-2.0",
   "engines": {
     "cordovaDependencies": {
